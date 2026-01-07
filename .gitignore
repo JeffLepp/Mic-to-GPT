@@ -1,0 +1,72 @@
+# --------------------
+# Python virtual envs
+# --------------------
+venv/ 
+.venv/
+env/
+ENV/
+
+# --------------------
+# Python cache / build
+# --------------------
+__pycache__/ 
+*.py[cod]
+*.pyo
+*.pyd
+
+# --------------------
+# Packaging / build
+# --------------------
+build/
+dist/
+*.egg-info/
+
+# --------------------
+# IDE / editor   
+# --------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --------------------
+# OS files
+# --------------------
+.DS_Store
+Thumbs.db
+
+# --------------------
+# Logs & runtime files 
+# --------------------
+*.log
+ 
+# --------------------
+# Audio / mic artifacts
+# --------------------
+*.wav
+*.mp3
+*.flac
+*.ogg
+recordings/
+audio_cache/
+
+# --------------------
+# Environment variables
+# --------------------
+.env
+.env.*
+
+# --------------------
+# API keys / secrets
+# --------------------
+*.key
+*.pem
+secrets/
+credentials/
+
+# --------------------
+# Model / temp outputs
+# --------------------
+outputs/
+tmp/
+cache/
