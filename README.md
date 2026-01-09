@@ -4,6 +4,15 @@ Download requirements from requirements.txt
 
 To run the listening GPT model, run 'activate.py'
 
+## API Key
+
+This project requires an OpenAI API key.
+
+**Linux / macOS**
+```bash
+export OPENAI_API_KEY="your_api_key_here"
+```
+
 
 # Listening GPT Framework
 
